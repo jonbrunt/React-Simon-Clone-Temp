@@ -18,11 +18,14 @@ const CenterStyledDiv = styled.div`
     width: 140px;      
   }
   h1 {
-    position: relative;
+    position: absolute;
+    top: 61px;
+    left: 27px;
     margin: 0;
-    padding-top: 35%;
     font-size: 3.5em;
     @media (max-width: 600px) {
+      top: 49px;
+      left: 23px;
       font-size: 2.8em;
     }
   }
