@@ -25,10 +25,6 @@ const BlueStyledDiv = styled.div`
 const BlueButton = props => ( // renders green button
   <BlueStyledDiv onClick={props.handleBoardClick(props.color)} // invokes method in logic container on click
     className={props.blueActive ? 'bluebutton--active' : null}> {/* dynamically handles class based on state */}
-    {/* <Sound
-      url='../../sounds/simon3.mp3'
-      playStatus={props.blueActive ? Sound.status.PLAYING : Sound.status.STOPPED}
-    /> */}
   </BlueStyledDiv>
 );
 
