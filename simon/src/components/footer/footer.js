@@ -21,7 +21,7 @@ const FooterStyledDiv = styled.div`
 
 const Footer = () => ( // renders static footer
   <FooterStyledDiv>
-    <p>Design &amp; Development by Jonathan M. Brunt 2018</p>
+    <p>Design &amp; Development by Jonathan M. Brunt 2020</p>
     <p>Educational Project Inspired by the Original "Simon", a Registered Trademark of Milton Bradley</p>
   </FooterStyledDiv>
 );
